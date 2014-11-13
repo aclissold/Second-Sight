@@ -13,3 +13,19 @@ Results
 -------
 
 Forthcoming!
+
+Running
+-------
+
+```
+sudo easy_install pip
+sudo pip install virtualenv
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+
+./secondsight.py
+```
+
+(More detailed setup description
+[here](https://blog.dbrgn.ch/2012/9/18/virtualenv-quickstart/).)
